@@ -1,0 +1,11 @@
+# ---------------------------------------------------------------------------
+# CORE dependencies — these alone are enough to run the full demo (DEMO MODE).
+# The system runs completely offline with a deterministic clinical engine when
+# no LLM API keys are present. Install the extras in requirements-full.txt to
+# enable live LLM agents (OpenAI / Anthropic), ChromaDB vector RAG and LangGraph.
+# ---------------------------------------------------------------------------
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-dotenv==1.0.1
+reportlab==4.2.5

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "62M — Chest pain, dyspnea, diaphoresis (cardiac)",
+    "age": 62,
+    "sex": "Male",
+    "history": ["Hypertension", "Diabetes", "Smoking"],
+    "symptoms": ["Chest pain", "Shortness of breath", "Sweating"],
+    "medications": ["Metformin", "Lisinopril"],
+    "allergies": [],
+    "note": "62-year-old male with hypertension, diabetes and a 30 pack-year smoking history presents with acute substernal chest pain, shortness of breath and profuse sweating that began 1 hour ago at rest."
+  },
+  {
+    "name": "48F — Pleuritic chest pain, leg swelling (PE concern)",
+    "age": 48,
+    "sex": "Female",
+    "history": ["Recent surgery", "Cancer"],
+    "symptoms": ["Shortness of breath", "Chest pain", "Leg swelling"],
+    "medications": [],
+    "allergies": ["Penicillin"],
+    "note": "48-year-old female 2 weeks post hip surgery with active malignancy presents with sudden pleuritic chest pain, dyspnea and unilateral leg swelling."
+  },
+  {
+    "name": "71M — Cough, fever, focal dyspnea (pneumonia)",
+    "age": 71,
+    "sex": "Male",
+    "history": ["COPD", "Smoking"],
+    "symptoms": ["Cough", "Fever", "Shortness of breath", "Sputum"],
+    "medications": ["Tiotropium"],
+    "allergies": [],
+    "note": "71-year-old male with COPD presents with productive cough, fever and chills for 3 days with new focal shortness of breath."
+  },
+  {
+    "name": "66F — Facial droop, slurred speech (stroke code)",
+    "age": 66,
+    "sex": "Female",
+    "history": ["Hypertension", "Atrial fibrillation"],
+    "symptoms": ["Facial droop", "Slurred speech", "Weakness"],
+    "medications": [],
+    "allergies": [],
+    "note": "66-year-old female with atrial fibrillation, sudden onset of right-sided facial droop, slurred speech and left arm weakness 40 minutes ago."
+  },
+  {
+    "name": "55M — Heartburn, retrosternal burning (GERD vs cardiac)",
+    "age": 55,
+    "sex": "Male",
+    "history": ["Obesity"],
+    "symptoms": ["Chest pain", "Heartburn", "Regurgitation"],
+    "medications": [],
+    "allergies": [],
+    "note": "55-year-old male with obesity reports burning retrosternal chest discomfort after large meals, worse lying down, with acid regurgitation."
+  }
+]
