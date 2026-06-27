@@ -1,7 +1,12 @@
 import axios from 'axios'
 
+const rawApiBaseUrl = import.meta.env.VITE_API_BASE_URL || '/api'
+const apiBaseUrl = rawApiBaseUrl.endsWith('/api')
+  ? rawApiBaseUrl.replace(/\/$/, '')
+  : `${rawApiBaseUrl.replace(/\/$/, '')}/api`
+
 const client = axios.create({
-  baseURL: '/api',
+  baseURL: apiBaseUrl,
   headers: { 'Content-Type': 'application/json' },
   timeout: 60000,
 })
@@ -17,7 +22,7 @@ export async function fetchSamples() {
 }
 
 export function getPdfUrl(requestId) {
-  return `/api/report/${requestId}/pdf`
+  return `${apiBaseUrl}/report/${requestId}/pdf`
 }
 
 export function downloadJson(result) {
